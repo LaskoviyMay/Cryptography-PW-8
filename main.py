@@ -1,7 +1,7 @@
 import secrets
 import argparse
 import os
-from Crypto.Hash import GOST34112012
+import gostcrypto as GOST34112012
 
 # Параметры эллиптической кривой по ГОСТ Р 34.10-2012
 PRIME = int("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD97", 16)
