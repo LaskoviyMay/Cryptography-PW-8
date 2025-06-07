@@ -1,8 +1,8 @@
 import secrets
 import argparse
 import os
-from Crypto.Hash import GOST34112012
 from typing import Tuple
+import gostcrypto as GOST34112012
 
 # Параметры эллиптической кривой ГОСТ Р 34.10-2012 (id-tc26-gost-3410-12-512-paramSetA)
 p = 57896044618658097711785492504343953926634992332820282019728792003956564823193
